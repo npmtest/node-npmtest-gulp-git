@@ -1,4 +1,7 @@
-# test coverage for  [gulp-git (v2.1.0)](http://github.com/stevelacy/gulp-git)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-git.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-git) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-git.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-git)
+# npmtest-gulp-git
+
+#### basic test-coverage for  [gulp-git (v2.1.0)](http://github.com/stevelacy/gulp-git)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-git.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-git) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-git.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-git)
+
 #### Git plugin for gulp (gulpjs.com)
 
 [![NPM](https://nodei.co/npm/gulp-git.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-git)
@@ -89,7 +92,8 @@
         "pretest": "rimraf test/repo test/tmp && eslint ./index.js ./examples/ ./lib/ ./test/",
         "test": "mocha --reporter spec --timeout 6000 test/main.js"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
